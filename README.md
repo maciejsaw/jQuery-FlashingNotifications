@@ -23,7 +23,7 @@ To check if it works, try typing in the console ```FlashingNotifiactions.showAnd
 
 ## showAndHideNotification
 Shows the notification and hides it. 
-The notifications of specific type will not stack, this a UX design decision to prevent users from being bombarded by errors. Only tha last received message of specific type will be shown. If a message is received while a different message of this type was shown, the old message will be hidden and then the new message will be shown.
+Because of UX design decision, the notifications of specific type will not stack. This prevents users from being bombarded by errors. Only tha last received message of specific type will be shown. If a message is received while a different message of this type was shown, the old message will be hidden and then the new message will be shown.
 ```FlashingNotifiactions.showAndHideNotification(notificationType, notificationText, timeToWaitBeforeHiding)```
 
 #### notificationType
