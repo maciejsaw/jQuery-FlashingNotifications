@@ -55,3 +55,7 @@ Hides all notifications
 # FAQ
 #### How can I add my own style?
 Just modify the CSS that you copied from this Codepen https://codepen.io/maciejsawicki/pen/EbMmpK as described in the "Quick start" section
+
+# Dependencies
+- It requires jQuery or Zepto 
+- The code is super simple and it uses only basic jQuery functions so it should be very easy for you to rewrite it to work with any JS framework like React, Vue.js, Angular etc. 
