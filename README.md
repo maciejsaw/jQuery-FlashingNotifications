@@ -10,7 +10,7 @@ Success and error notifications with good UX design and simple code
 - Supports long multiline messages
 - Prevents users from seeing multiple errors at once
 - Easy to add your custom styles because CSS is nice & clean, based on BEM
-- Design and the position on screen is tested with usability research on real products
+- Design tested with usability research on real products
 
 # Quick start
 1. Open this Codepen https://codepen.io/maciejsawicki/pen/EbMmpK 
@@ -56,6 +56,8 @@ Hides all notifications
 # FAQ
 #### How can I add my own style?
 Just modify the CSS that you copied from this Codepen https://codepen.io/maciejsawicki/pen/EbMmpK as described in the "Quick start" section
+#### How can I change position of the message?
+You can't, because the position on top is for most cases the right design decision. This is the most generic placement that works on all screen sizes and proved to work well on usability tests.
 
 # Dependencies
 - It requires jQuery or Zepto 
