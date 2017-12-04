@@ -27,7 +27,7 @@ The notifications of specific type will not stack, this a UX design decision to 
 ```FlashingNotifiactions.showAndHideNotification(notificationType, notificationText, timeToWaitBeforeHiding)```
 
 #### notificationType
-It changes the type of notification, so changes its color and icon
+It changes the type of notification, so changes its color and icon. Note that the success type won't have the close button, because user shouldn't be bothered with it and it's not essential for him to acknowledge that he read the message.
 Available options: ```'neutral'```, ```'success'```, ```'error'```
 Default: ```'neutral'```
 
@@ -37,7 +37,8 @@ It support HTML, so you can place links inside and whatever your want.
 Default: depends on notification type: ```'Notification!'```, ```'Success!'```, ```'Oops... Something went wrong.'```
 
 #### timeToWaitBeforeHiding
-It changes the delay before the notification is hidden
+It changes the delay before the notification is hidden. 
+There's no separate option to make the message persistent, you need to enter a big number here to make sure that user will read this message and when he does he can close it with the button. 
 Default: ```'3500'```
 
 For example, to show green success message that shows "Message sent!" and hides after 8 seconds, you need to use this code
