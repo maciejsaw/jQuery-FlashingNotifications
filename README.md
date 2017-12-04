@@ -54,4 +54,4 @@ Hides all notifications
 
 # FAQ
 #### How can I add my own style?
-Just modify the CSS
+Just modify the CSS that you copied from this Codepen https://codepen.io/maciejsawicki/pen/EbMmpK See the "Quick start" section)
