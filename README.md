@@ -18,14 +18,14 @@ Success and error notifications with good UX design and simple code
 3. Copy CSS to your CSS styles (no need to copy images, as they are encoded with SVG in the code)
 4. Copy JS to your JS scripts
 
-To check if it works, try typing in the console ```FlashingNotifiactions.showAndHideNotification('success', "It works!",)```. If everything is fine you should see the green notification.
+To check if it works, try typing in the console ```FlashingNotifications.showAndHideNotification('success', "It works!",)```. If everything is fine you should see the green notification.
 
 # Specification
 
 ## showAndHideNotification
 Shows the notification and hides it. 
 Because of UX design decision, the notifications of specific type will not stack. This prevents users from being bombarded by errors. Only tha last received message of specific type will be shown. If a message is received while a different message of this type was shown, the old message will be hidden and then the new message will be shown.
-```FlashingNotifiactions.showAndHideNotification(notificationType, notificationText, timeToWaitBeforeHiding)```
+```FlashingNotifications.showAndHideNotification(notificationType, notificationText, timeToWaitBeforeHiding)```
 
 #### notificationType
 It changes the type of notification, so changes its color and icon. Note that the success type won't have the close button, because user shouldn't be bothered with it and it's not essential for him to acknowledge that he read the message.
@@ -43,15 +43,15 @@ There's no separate option to make the message persistent, you need to enter a b
 Default: ```'3500'```
 
 For example, to show green success message that shows "Message sent!" and hides after 8 seconds, you need to use this code
-```FlashingNotifiactions.showAndHideNotification('success', "Message sent!", 8000)```
+```FlashingNotifications.showAndHideNotification('success', "Message sent!", 8000)```
 
 ## hideNotification
 Hides selected notification type
-```FlashingNotifiactions.hideNotification(notificationType)```
+```FlashingNotifications.hideNotification(notificationType)```
 
 ## hideAllNotifications
 Hides all notifications
-```FlashingNotifiactions.hideAllNotifications()```
+```FlashingNotifications.hideAllNotifications()```
 
 # FAQ
 #### How can I add my own style?
