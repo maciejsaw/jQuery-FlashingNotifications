@@ -14,7 +14,7 @@ Success and error notifications with good UX design and simple code
 # Quick start
 1. Open this Codepen https://codepen.io/maciejsawicki/pen/EbMmpK 
 2. Copy HTML to you website or your component
-3. Copy CSS to your CSS styles
+3. Copy CSS to your CSS styles (no need to copy images, as they are encoded with SVG in the code)
 4. Copy JS to your JS scripts
 
 To check if it works, try typing in the console ```FlashingNotifiactions.showAndHideNotification('success', "It works!",)```. If everything is fine you should see the green notification.
