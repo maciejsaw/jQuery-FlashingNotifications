@@ -7,6 +7,7 @@ Success and error notifications with good UX design and simple code
 - Animations with CSS transitions
 - Custom text, links and HTML inside messages
 - Responsive, universal design
+- Supports long multiline messages
 - Prevents users from seeing multiple errors at once
 - Easy to add your custom styles because CSS is nice & clean, based on BEM
 - Design and the position on screen is tested with usability research on real products
