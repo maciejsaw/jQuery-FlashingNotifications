@@ -51,3 +51,7 @@ Hides selected notification type
 ## hideAllNotifications
 Hides all notifications
 ```FlashingNotifiactions.hideAllNotifications()```
+
+# FAQ
+#### How can I add my own style?
+Just modify the CSS
