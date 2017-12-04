@@ -12,7 +12,7 @@ Success and error notifications with good UX design and simple code
 - Easy to add your custom styles because CSS is nice & clean, based on BEM
 - Design tested with usability research on real products
 
-# Quick start
+# Quick start / installation
 1. Open this Codepen https://codepen.io/maciejsawicki/pen/EbMmpK 
 2. Copy HTML to your HTML. Ideally at the top of ```body```
 3. Copy CSS to your CSS styles (no need to copy images, as they are encoded with SVG in the code)
