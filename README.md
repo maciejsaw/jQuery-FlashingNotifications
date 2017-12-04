@@ -1,6 +1,8 @@
 # jQuery-FlashingNotifications
 Success and error notifications with good UX design and simple code
 
+![gif](https://github.com/maciejsaw/jQuery-FlashingNotifications/raw/master/readme-files/flashing.gif)
+
 # Features
 - Animations
 - Custom text, links and HTML inside messages
